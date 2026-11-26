@@ -1,0 +1,13 @@
+{
+  "name": "gutcheck",
+  "version": "1.0.0",
+  "description": "Daily 12-choice instinct game you send to your group chat. Zero backend, zero signup.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node --test tests/core.test.mjs",
+    "e2e": "python3 tests/e2e.py",
+    "serve": "python3 -m http.server 8080"
+  },
+  "license": "MIT"
+}
